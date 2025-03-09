@@ -1,0 +1,74 @@
+"""
+Game constants for Light Weaver
+"""
+import pygame
+
+# Window settings
+SCREEN_WIDTH = 1280
+SCREEN_HEIGHT = 720
+FPS = 60
+TITLE = "Light Weaver"
+
+# Colors (RGB)
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+GRAY = (50, 50, 50)
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+BLUE = (0, 0, 255)
+YELLOW = (255, 255, 0)
+CYAN = (0, 255, 255)
+MAGENTA = (255, 0, 255)
+
+# Player settings
+PLAYER_RADIUS = 20
+PLAYER_SPEED = 5
+PLAYER_COLOR = (200, 200, 255)
+PLAYER_GLOW_COLOR = (220, 220, 255)
+PLAYER_GLOW_RADIUS = 40
+
+# Light beam settings
+BEAM_WIDTH = 3
+BEAM_MAX_LENGTH = 2000
+BEAM_SPEED = 15
+BEAM_FADE_RATE = 0.95
+MAX_REFLECTIONS = 10
+
+# Game object settings
+MIRROR_WIDTH = 80
+MIRROR_HEIGHT = 10
+PRISM_SIZE = 40
+FILTER_SIZE = 50
+CHECKPOINT_SIZE = 60
+CHECKPOINT_PULSE_SPEED = 0.05
+CHECKPOINT_PULSE_RANGE = 10
+SHADOW_CREATURE_SIZE = 50
+
+# Level settings
+MAX_LEVEL = 10
+LEVEL_TRANSITION_DELAY = 2000  # milliseconds
+
+# UI settings
+UI_FONT = 'Arial'
+UI_FONT_SIZE = 24
+UI_PADDING = 20
+UI_BUTTON_SIZE = (200, 50)
+CHECKPOINT_SIZE = 60
+SHADOW_CREATURE_SIZE = 70
+
+# UI settings
+UI_FONT = "Arial"
+UI_FONT_SIZE = 24
+UI_PADDING = 10
+UI_BUTTON_SIZE = (200, 50)
+
+# Level settings
+GRID_SIZE = 40
+MAX_LEVEL = 10
+
+# Physics settings
+COLLISION_TOLERANCE = 2
+
+# Audio settings
+VOLUME_MUSIC = 0.5
+VOLUME_SFX = 0.7
